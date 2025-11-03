@@ -1,0 +1,82 @@
+.portfolio-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, #0b0b0b, #0a0133);
+  }
+  
+  .line {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line.top {
+    left: 0;
+    right: 2vw;
+    top: 4vh;
+    justify-content: flex-end;
+  }
+  
+  .line.bottom {
+    left: 2vw;
+    right: 0;
+    bottom: 4vh;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+  
+  .line::before {
+    content: "";
+    flex: 1;
+    height: 0.1vh;
+    background-color: #ffffff;
+  }
+  
+  .star {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    display: block;
+    position: relative;
+    top: 0.05vh;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .titulo {
+    font-family: "Bona Nova";
+    font-weight: 400;
+    font-size: 10vw;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    opacity: 0.5;
+    margin: 0;
+  }
+  
+  .subtitulo {
+    font-family: "Bona Nova SC";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0.8vh;
+  }
+  
+  .año {
+    position: absolute;
+    right: 4vw;
+    bottom: 8vh;
+    font-family: "Bona Nova SC", serif;
+    font-size: 2vw;
+    color: #ffffff;
+  }
+  
