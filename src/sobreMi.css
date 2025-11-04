@@ -1,0 +1,51 @@
+.about-container {
+    background-color: #0b0133;
+    color: #ffffff;
+    padding: 5vh 6vw;
+    font-family: "Bona Nova";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-family: var(--bona-nova-sc);
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 8vh;
+  }
+  
+  .star-icon {
+    width: 3vw;
+    height: 3vw;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .about-text {
+    width: 45%;
+    font-family: inherit ;
+    font-size: 1.5vw;
+    line-height: 1.6;
+  }
+  
+  .about-photo {
+    width: 20vw;
+    height: auto;
+    border-radius: 1vw;
+    object-fit: cover;
+  }
+  

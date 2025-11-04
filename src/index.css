@@ -1,3 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+    --bona-nova: "Bona Nova";
+    --bona-nova-sc: "Bona Nova SC";
+    --inria-sans: "Inria Sans";
+  }
