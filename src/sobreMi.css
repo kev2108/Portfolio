@@ -2,7 +2,6 @@
     background-color: #0b0133;
     color: #ffffff;
     padding: 5vh 6vw;
-    font-family: "Bona Nova";
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +10,7 @@
   
   .about-title {
     font-family: var(--bona-nova-sc);
-    font-size: 3vw;
+    font-size: 4vw;
     letter-spacing: 0.1em;
     font-weight: 400;
     display: flex;
@@ -36,14 +35,16 @@
   }
   
   .about-text {
-    width: 45%;
-    font-family: inherit ;
-    font-size: 1.5vw;
+    width: 55%;
+    font-family: var(--inria-sans);
+    color: #F2EEE7;
+    font-weight: lighter;
+    font-size: 2vw;
     line-height: 1.6;
   }
   
   .about-photo {
-    width: 20vw;
+    width: 25vw;
     height: auto;
     border-radius: 1vw;
     object-fit: cover;

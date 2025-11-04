@@ -4,16 +4,13 @@ import estrella from "/Star.png";
 export default function Formacion() {
   return (
     <div className="formacion-container">
-      {/* Título con estrellas */}
       <div className="formacion-title">
         <img src={estrella} alt="star" className="star-icon" />
         <h2>Formación</h2>
         <img src={estrella} alt="star" className="star-icon" />
       </div>
 
-      {/* Timeline */}
       <div className="timeline">
-        {/* Línea vertical continua */}
         <div className="timeline-line"></div>
 
         <div className="timeline-item">

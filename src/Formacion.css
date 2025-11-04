@@ -28,28 +28,25 @@
     filter: brightness(0) invert(0.85);
   }
   
-  /* === TIMELINE === */
   .timeline {
     position: relative;
     width: 76%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    row-gap: 10vh; /* separa los eventos */
+    row-gap: 10vh; 
   }
   
-  /* Línea vertical continua */
   .timeline-line {
     position: absolute;
     left: 12vw;
     top: 2.5vh;
     bottom: 2.5vh;
     width: 0.12vw;
-    background-color: #a6bdf2;
+    background-color: #ffffff;
     opacity: 0.7;
   }
   
-  /* Cada evento */
   .timeline-item {
     display: grid;
     grid-template-columns: 10vw 1fr;
@@ -58,13 +55,12 @@
     gap: 4vw;
   }
   
-  /* Años */
   .timeline-year {
     font-family: "Impact";
     letter-spacing: 0.05em;
     font-weight: bold;
     font-size: 3vw;
-    color: #a6bdf2;
+    color: #ACCDFF;
     text-align: right;
     line-height: 1.2;
     padding-right: 2vw;
@@ -75,21 +71,20 @@
     transform: translateX(-4vh);
   }
   
-  /* Puntos sobre la línea */
   .timeline-dot {
     position: absolute;
     left: 12.1vw;
     transform: translate(-50%, 0);
     width: 1vw;
     height: 1vw;
-    background-color: #a6bdf2;
+    background-color: #ACCDFF;
     border-radius: 50%;
   }
   
-  /* Texto */
   .timeline-text {
     text-align: left;
     font-family: var(--inria-sans);
+    font-weight: lighter;
     font-size: 2vw;
     color: #ffffff;
     line-height: 1.5;
