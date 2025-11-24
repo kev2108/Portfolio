@@ -1,6 +1,8 @@
 import "./Portfolio.css";
 import About from "./sobreMi.jsx";
 import Formacion from "./formacion.jsx";
+import Habilidades from "./habilidades.jsx";
+import Contacto from "./contact.jsx";
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
       </div>
       <About />
       <Formacion />
+      <Habilidades />
+      <Contacto />
     </>
   );
 }

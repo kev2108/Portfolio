@@ -1,0 +1,88 @@
+.habilidades-section {
+  background-color: #08396a;
+  color: white;
+  padding: 10vh 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.habilidades-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  font-family: "Bona Nova SC", serif;
+  font-size: 3vw;
+  letter-spacing: 0.1em;
+  margin-bottom: 6vh;
+}
+
+.habilidades-title h2{
+    font-weight: 400;
+}
+
+.star-icon {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  height: 40vh;
+  margin-top: 6vh;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 12vw;
+  width: max-content; 
+  animation: scroll-horizontal 35s linear infinite;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;   
+}
+
+.habilidad-card {
+  background: linear-gradient(135deg, #aee2ff, #ffe6e6);
+  color: #000;
+  width: 20vw;
+  height: 20vh;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inria Sans";
+  font-weight: 700;
+  font-size: 1.5vw;
+  position: relative;
+}
+
+.habilidad-card p {
+  width: 80%;            
+  text-align: center;    
+  white-space: normal;  
+  word-wrap: break-word; 
+  line-height: 1.3;     
+}
+
+
+.star-small {
+  position: absolute;
+  top: 0.8vw;
+  left: 0.8vw;
+  width: 3vw;
+  height: 3vw;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);  
+  }
+}

@@ -1,0 +1,57 @@
+.contacto-section {
+  background-color: #08396a; 
+  padding-top: 4vh;
+  text-align: center;
+  font-family: "Bona Nova SC";
+  color: #ffffff;
+}
+
+.contacto-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  font-size: 2.6vw;
+  letter-spacing: 0.12em;
+}
+
+.contacto-title h2{
+    font-weight: 400;
+} 
+
+.star-contact {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+.contacto-bar {
+  background: linear-gradient(180deg, #b4e1ff, #a3d0ff);
+  padding: 4vh 5vw;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.contacto-chip {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background-color: #ACCDFF;
+  padding: 1vh 2vw;
+  border-radius: 1vw;
+  backdrop-filter: blur(8px);
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1.4vw;
+  color: #0a2951;
+}
+
+.iconM{
+  width: 2vw;
+  height: 1.5vw;
+}
+
+.iconL{
+  width: 1.8vw;
+  height: 1.8vw;
+}
