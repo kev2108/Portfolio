@@ -3,19 +3,18 @@ import estrella from "/Star.png";
 import logo from "/logoCaasita.png";
 import foto1 from "/foto1.png";
 import foto2 from "/foto2.png";
+import iconIg from "/logoIg.png";
 
 export default function ProyectoDestacado() {
   return (
     <section className="proyecto-section">
 
-      {/* Título */}
       <div className="proyecto-title">
         <img src={estrella} className="star-icon" />
         <h2>Proyecto destacado</h2>
         <img src={estrella} className="star-icon" />
       </div>
 
-      {/* TARJETA COMPLETA */}
       <div className="proyecto-card">
 
         <div className="proyecto-left">
@@ -26,11 +25,13 @@ export default function ProyectoDestacado() {
           <h3 className="proyecto-name">CAAsita</h3>
 
           <p className="proyecto-text">
-            Software educativo diseñado para acompañar el desarrollo de niños y niñas con una
-            edad cognitiva entre tres y seis años que presentan una discapacidad motriz que
-            afecta el lenguaje. Su propósito es entrenarlos mediante el uso de la Comunicación
-            Aumentativa Alternativa (CAA), ofreciendo una experiencia accesible compatible con seguimiento ocular.
-          </p>
+        CAAsita es un software educativo diseñado para acompañar el desarrollo de niños y niñas que presentan una discapacidad motriz 
+        que suele afectar el lenguaje. Su propósito es entrenarlos mediante el uso de la Comunicación Aumentativa Alternativa (CAA), 
+        promoviendo el aprendizaje, la exploración y la comunicación mediante una experiencia digital adaptada y accesible. 
+        A través de juegos interactivos, animaciones y estímulos visuales diseñados especialmente para este público, 
+        CAAsita busca fortalecer las habilidades de atención, control visual y respuesta intencional para poder llegar a un control total
+        del dispositivo de seguimiento ocular.          
+        </p>
 
           <p className="proyecto-rol">
             <strong>Mi rol:</strong> Game developer
@@ -42,6 +43,7 @@ export default function ProyectoDestacado() {
               href="https://instagram.com/caasita.ok"
               target="_blank"
             >
+              <img src={iconIg} className="ig-icon" />
               @caasita.ok
             </a>
 
@@ -56,7 +58,6 @@ export default function ProyectoDestacado() {
         </div>
       </div>
 
-      {/* FOTOS */}
       <div className="proyecto-fotos">
         <img src={foto1} className="proyecto-foto" />
         <img src={foto2} className="proyecto-foto" />
