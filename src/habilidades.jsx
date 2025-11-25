@@ -5,12 +5,16 @@ import estrellaAzul from "/starAzul.png";
 export default function Habilidades() {
 
   const habilidades = [
-    "Buen trabajo en equipo",
-    "Resolución de problemas",
-    "Comunicación efectiva",
-    "Pensamiento creativo",
+    "Organización y cumplimiento de objetivos",
+    "Gestión del tiempo y responsabilidad",
+    "Comunicación clara y trato profesional",
+    "Adaptabilidad y rapidez para aprender",
     "Gestión de proyectos",
-    "Aprendizaje autónomo",
+    "Trabajo en equipo y colaboración",
+    "Resolución práctica de problemas",
+    "HTML y CSS (nivel básico)",
+    "Figma (Diseño UX/UI)",
+    "Phaser (Desarrollo de juegos) ",
   ];
 
   return (

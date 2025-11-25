@@ -13,15 +13,25 @@ export default function Contacto() {
       </div>
 
       <div className="contacto-bar">
-        <div className="contacto-chip">
+
+        <a
+          href="mailto:kevindanieldana@gmail.com"
+          className="contacto-chip"
+        >
           <img src={mailIcon} className="iconM" />
           <span>kevindanieldana@gmail.com</span>
-        </div>
+        </a>
 
-        <div className="contacto-chip">
+        <a
+          href="https://ar.linkedin.com/in/kevin-daniel-dana-01b0a3282"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contacto-chip"
+        >
           <img src={linkedinIcon} className="iconL" />
           <span>Kevin Daniel Dana</span>
-        </div>
+        </a>
+
       </div>
     </section>
   );
