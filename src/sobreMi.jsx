@@ -1,6 +1,5 @@
 import "./sobreMi.css";
-import foto from "./assets/fotoKevin.png"; // reemplazá con el nombre real de tu imagen
-
+import foto from "./assets/grad.png"; 
 export default function About() {
   return (
     <section className="about-container">
@@ -18,8 +17,9 @@ export default function About() {
           </p>
           <p>
             Me gusta aprender cosas nuevas, conocer personas de distintos
-            lugares y compartir ideas que generen un impacto positivo. Me
-            interesa la tecnología como una herramienta para crear, conectar y
+            lugares y compartir ideas que generen un impacto positivo. 
+          </p>
+          <p>Me interesa la tecnología como una herramienta para crear, conectar y
             ayudar. Disfruto participar en proyectos con propósito y seguir
             creciendo a través de cada experiencia.
           </p>

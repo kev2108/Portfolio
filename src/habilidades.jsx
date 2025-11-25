@@ -5,7 +5,7 @@ import estrellaAzul from "/starAzul.png";
 export default function Habilidades() {
 
   const habilidades = [
-    "Liderazgo y trabajo en equipo",
+    "Buen trabajo en equipo",
     "Resolución de problemas",
     "Comunicación efectiva",
     "Pensamiento creativo",

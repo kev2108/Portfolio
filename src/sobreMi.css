@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 6vw;
     width: 100%;
     text-align: left;
   }
@@ -44,7 +44,7 @@
   }
   
   .about-photo {
-    width: 25vw;
+    width: 31vw;
     height: auto;
     border-radius: 1vw;
     object-fit: cover;

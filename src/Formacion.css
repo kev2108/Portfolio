@@ -1,98 +1,106 @@
 .formacion-container {
-    background: linear-gradient(to bottom, #0a0a33, #093A68);
-    color: #ffffff;
-    padding: 8vh 10vw;
-    text-align: center;
-    position: relative;
-  }
-  
-  .formacion-title {
-    font-family: "Bona Nova SC";
-    font-size: 3vw;
-    letter-spacing: 0.1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3vw;
-    margin-bottom: 8vh;
-  }
+  background: linear-gradient(to bottom, #0a0a33, #093A68);
+  color: #ffffff;
+  padding: 8vh 10vw;
+  text-align: center;
+  position: relative;
+}
 
-  .formacion-title h2 {
-    font-weight: 400;
-  }
-  
-  
-  .star-icon {
-    width: 3.5vw;
-    height: 3.5vw;
-    filter: brightness(0) invert(0.85);
-  }
-  
-  .timeline {
-    position: relative;
-    width: 76%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10vh; 
-  }
-  
-  .timeline-line {
-    position: absolute;
-    left: 12vw;
-    top: 2.5vh;
-    bottom: 2.5vh;
-    width: 0.12vw;
-    background-color: #ffffff;
-    opacity: 0.7;
-  }
-  
-  .timeline-item {
-    display: grid;
-    grid-template-columns: 10vw 1fr;
-    align-items: center;
-    position: relative;
-    gap: 4vw;
-  }
-  
-  .timeline-year {
-    font-family: "Impact";
-    letter-spacing: 0.05em;
-    font-weight: bold;
-    font-size: 3vw;
-    color: #ACCDFF;
-    text-align: right;
-    line-height: 1.2;
-    padding-right: 2vw;
-  }
-  
-  .timeline-year .dash {
-    display: inline-block;
-    transform: translateX(-4vh);
-  }
-  
-  .timeline-dot {
-    position: absolute;
-    left: 12.1vw;
-    transform: translate(-50%, 0);
-    width: 1vw;
-    height: 1vw;
-    background-color: #ACCDFF;
-    border-radius: 50%;
-  }
-  
-  .timeline-text {
-    text-align: left;
-    font-family: var(--inria-sans);
-    font-weight: lighter;
-    font-size: 2vw;
-    color: #ffffff;
-    line-height: 1.5;
-    opacity: 0.95;
-    width: 50vw;
-  }
-  
-  .timeline-text p {
-    margin: 0.5vh 0;
-  }
-  
+.formacion-title {
+  font-family: "Bona Nova SC";
+  font-size: 3vw;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  margin-bottom: 8vh;
+}
+
+.formacion-title h2 {
+  font-weight: 400;
+}
+
+.star-icon {
+  width: 3.5vw;
+  height: 3.5vw;
+  filter: brightness(0) invert(0.85);
+}
+
+.timeline {
+  position: relative;
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10vh;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 12vw;
+  top: 0;
+  bottom: 0;
+  width: 0.13vw;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+
+.timeline-year {
+  font-family: "Impact", sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #ACCDFF;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 0.6vw;
+  white-space: nowrap;
+
+  padding-right: 4vw;
+  height: 1.2em; 
+  line-height: 1;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 12vw 1fr;
+  align-items: center;     
+  position: relative;
+  gap: 4vw;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 12.1vw;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1vw;
+  height: 1vw;
+  background-color: #ACCDFF;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+
+.timeline-text {
+  text-align: left;
+  font-family: var(--inria-sans);
+  font-size: 1.7vw;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.45;
+  width: 50vw;
+}
+
+.timeline-text strong {
+  font-weight: 700;
+}
+
+.timeline-text p {
+  margin: 0.4vh 0;
+}
