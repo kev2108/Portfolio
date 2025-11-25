@@ -3,6 +3,7 @@ import About from "./sobreMi.jsx";
 import Formacion from "./formacion.jsx";
 import Habilidades from "./habilidades.jsx";
 import Contacto from "./contact.jsx";
+import ProyectoDestacado from "./proyecto.jsx";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <About />
       <Formacion />
       <Habilidades />
+      <ProyectoDestacado />
       <Contacto />
     </>
   );

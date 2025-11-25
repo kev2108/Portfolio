@@ -1,0 +1,127 @@
+.proyecto-section {
+  padding: 10vh 0;
+  text-align: center;
+  background-color: #093A68;
+}
+
+/* Título */
+.proyecto-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  font-family: "Bona Nova SC";
+  font-size: 3vw;
+  color: white;
+  margin-bottom: 6vh;
+}
+
+.proyecto-title h2 {
+  font-weight: 400;
+}
+
+.proyecto-card {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+
+  aspect-ratio: 1.8 / 1;
+
+  background-image: url("/etapa1.png");
+  background-size: cover;         
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 2vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  padding: 4vw;
+  box-sizing: border-box;
+}
+
+
+/* LOGO */
+.proyecto-logo {
+  width: 26vw;
+  height: auto;
+}
+
+.proyecto-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff80;
+  border-radius: 1.2vw;
+}
+
+.proyecto-right {
+  width: 50%;
+  text-align: left;
+}
+
+
+.proyecto-name {
+  font-family: "Bona Nova SC";
+  font-size: 2.8vw;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+.proyecto-text {
+  font-family: "Inria Sans";
+  font-weight: 400;
+  font-size: 1.3vw;
+  line-height: 1.5;
+  margin-bottom: 2vh;
+}
+
+.proyecto-rol {
+  font-family: "Inria Sans";
+  font-size: 1.2vw;
+  margin-bottom: 2vh;
+}
+
+.proyecto-bottom {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  gap: 10vw;
+}
+
+.proyecto-ig {
+  font-family: inter;
+  font-size: 1.2vw;
+  color: #000000;
+  text-decoration: none; 
+}
+
+.proyecto-btn {
+  padding: 1vw 5vw; 
+  font-family: "Inria Sans";
+  font-size: 1.8vw; 
+  font-weight: 600;
+  border: none;
+  border-radius: 2vw;
+  background: linear-gradient(90deg, #9CDA9C, #F6E9AA);
+  cursor: pointer;
+  text-decoration: none; 
+  color: #000000;        
+  display: inline-block; 
+}
+
+
+/* FOTOS DE ABAJO */
+.proyecto-fotos {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+}
+
+.proyecto-foto {
+  width: 30vw;
+  border-radius: 1vw;
+}
